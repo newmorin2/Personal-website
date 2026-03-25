@@ -38,7 +38,7 @@ section .title {
     text-decoration: underline 3px blue;
 }
 div p {
-    font-size: 20px;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.781);
     text-align: center;
     margin-bottom: 70px;
@@ -47,8 +47,13 @@ div p {
 .card1, .card2 {
     text-align: center;
 }
+.card1 h1, .card2 h1 {
+    font-size: 23px;
+}
 .card1 img, .card2 img {
     border-radius: 15px;
+    width: 400px;
+    height: 250px;
 }
 .card1 p, .card2 p {
     font-size: 17px;
@@ -70,3 +75,57 @@ div p {
     background-color: rgba(0, 0, 255, 0.849);
     cursor: cell;
 }
+
+/* respsonsive */
+@media screen and (max-width:425px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    section .title {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    section div p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .card1 img, .card2 img {
+        width: 200px;
+        height: 150px;
+    }
+    .card1 h1, .card2 h1 {
+        font-size: 20px;
+    }
+    .card1 p, .card2 p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+}
+    @media screen and (max-width:768px) {
+        .navbar a{
+            font-size: 17px;    
+        }
+        .navbar h2 a {
+            font-size: 20px;    
+        }
+        .card1 img, .card2 img {
+            width: 400px;
+            height: 250px;
+        }
+        .card1 h1, .card2 h1 {
+            font-size: 25px;
+        }
+        .card1 p, .card2 p {
+            font-size: 20px;
+            line-height: 23px;
+        }
+    }
+    /* @media  screen and (max-width:1024px) {
+        .navbar a{
+            font-size: 23px;    
+        }
+        .navbar h2 a {
+            font-size: 25px;    
+        }
+    } */
