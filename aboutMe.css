@@ -1,0 +1,92 @@
+body {
+        font-family:'Courier New', Courier, monospace;
+}
+body a {
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    /* background-color:rgb(252, 249, 249); */
+}
+.navbar h2 a{
+    color: black;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+.navbar ul a {
+    color: black;
+}
+.navbar ul a:hover {
+    color: blue;
+    cursor: cell;
+}
+.navbar h2 a:hover {
+    cursor: cell;
+}
+
+/* main content */
+section h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    text-decoration: underline 3px blue;
+}
+.desc {
+    border: 1px solid rgb(252,252,252);
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+}
+.desc h3 {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.desc p{
+    margin-left: 40px;
+    color: rgba(0, 0, 0, 0.623);
+}
+section h3 {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+section svg {
+    color: blue;
+}
+.card1, .card2 {
+    margin-left: 40px;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.384) ;
+    border-radius: 13px;
+}
+.card1 h4, .card2 h4{
+    color: rgba(0, 0, 0, 0.623);
+}
+.card1:hover{
+    border-color: blue;
+    cursor: cell;
+}
+.card2:hover {
+    border-color: blue;
+    cursor: cell;
+}
+.card1 {
+    margin-bottom: 30px;
+}
+.languages p {
+    margin-left: 40px;
+    width: 10%;
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.384);
+    border-radius: 5px;
+}
+.languages p:hover {
+    border-color: blue;
+    cursor: cell;
+}

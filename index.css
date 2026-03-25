@@ -1,0 +1,85 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+body a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    /* background-color:rgb(252, 249, 249); */
+}
+.navbar h2 a{
+    color: black;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+.navbar ul a {
+    color: black;
+}
+.navbar ul a:hover {
+    color: blue;
+    cursor: cell;
+}
+.navbar h2 a:hover {
+    cursor: cell;
+}
+
+/* main content */
+section div {
+    text-align: center;
+}
+div h1 {
+    font-size: 40px;
+    margin-top: 90px;
+}
+div .p1 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.781);
+}
+div .p2 {
+    color: rgba(0, 0, 0, 0.623);
+}
+div h1 span {
+    color: blue;
+}
+.projects {
+    padding: 13px;
+    font-size: 15px;
+    background-color: blue;
+    border: none;
+    border-radius: 12px;
+}
+.projects a {
+    color: white;
+}
+.projects a:hover {
+    cursor: cell;
+}
+.about {
+    padding: 13px;
+    font-size: 15px;
+    border: none;
+    border-radius: 12px;
+}
+.about a {
+    color: black;
+}
+.about a:hover {
+    cursor: cell;
+}
+.contacts svg {
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.623);
+
+}
+
+/* responsive */

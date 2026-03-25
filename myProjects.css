@@ -1,0 +1,72 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+body a {
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+}
+.navbar h2 a{
+    color: black;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+.navbar ul a {
+    color: black;
+}
+.navbar ul a:hover {
+    color: blue;
+    cursor: cell;
+}
+.navbar h2 a:hover {
+    cursor: cell;
+}
+
+/* main content */
+section .title {
+     text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    text-decoration: underline 3px blue;
+}
+div p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.781);
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+.card1, .card2 {
+    text-align: center;
+}
+.card1 img, .card2 img {
+    border-radius: 15px;
+}
+.card1 p, .card2 p {
+    font-size: 17px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.card1 button, .card2 button {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.card1 button:hover{
+    background-color: rgba(0, 0, 255, 0.849);
+    cursor:cell;
+}
+.card2 button:hover {
+    background-color: rgba(0, 0, 255, 0.849);
+    cursor: cell;
+}
