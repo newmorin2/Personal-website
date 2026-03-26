@@ -6,7 +6,7 @@ body a {
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     position: sticky;
@@ -18,7 +18,7 @@ body a {
 .navbar ul {
     display: flex;
     list-style-type: none;
-    gap: 15px;
+    gap: 30px;
 }
 .navbar ul a {
     color: black;
@@ -44,19 +44,21 @@ section h1 {
     background-color: rgb(252, 252, 252);
 }
 .desc h3 {
-    margin-top: 80px;
-    margin-left: 40px;
+    margin:80px 0px 0px 40px ;
 }
 .desc p{
     margin-left: 40px;
     color: rgba(0, 0, 0, 0.623);
 }
 section h3 {
-    margin-top: 80px;
-    margin-left: 40px;
+    margin:80px 0px 50px 40px;
 }
 section svg {
     color: blue;
+}
+.flex-container {
+    display: flex;
+    justify-content:  center;
 }
 .card1, .card2 {
     margin-left: 40px;
@@ -110,6 +112,9 @@ section svg {
     section h3 {
         margin-top: 40px;
     }
+    .flex-container {
+        flex-direction: column;
+    }
     .card1, .card2 {
         width: 70%;
     }
@@ -121,6 +126,7 @@ section svg {
 @media  screen and (max-width:768px) {
     .card1, .card2 {
         width: 70%;
+        margin-right: 40px;
     }
     .desc p {
         margin-right: 40px;
